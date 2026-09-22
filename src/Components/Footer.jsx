@@ -12,7 +12,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-3">
 
-          {/* BRAND + ARTICLE */}
+          {/* BRAND + DESCRIPTION */}
           <section>
             <Link to="/" className="flex items-center gap-3">
               <img
@@ -42,27 +42,37 @@ function Footer() {
 
           {/* PAGES */}
           <nav>
-            <h3 className="text-base font-bold text-white">Pages</h3>
+            <h3 className="text-base font-bold text-white">
+              Pages
+            </h3>
 
             <div className="mt-4 grid grid-cols-2 gap-y-3 text-sm">
-              <Link to="/" className="hover:text-yellow-400">
+              <Link
+                to="/"
+                className="transition hover:text-yellow-400"
+              >
                 Home
               </Link>
 
-              <Link to="/about" className="hover:text-yellow-400">
+              <Link
+                to="/about"
+                className="transition hover:text-yellow-400"
+              >
                 About
               </Link>
 
-              <Link to="/blog" className="hover:text-yellow-400">
+              <Link
+                to="/blog"
+                className="transition hover:text-yellow-400"
+              >
                 Blog
               </Link>
 
-              <Link to="/contact" className="hover:text-yellow-400">
+              <Link
+                to="/contact"
+                className="transition hover:text-yellow-400"
+              >
                 Contact
-              </Link>
-
-              <Link to="/download" className="hover:text-yellow-400">
-                Download
               </Link>
             </div>
           </nav>
@@ -82,7 +92,7 @@ function Footer() {
               href={downloadUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-block rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-950 hover:bg-yellow-300"
+              className="mt-4 inline-block rounded-lg bg-yellow-400 px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-yellow-300"
             >
               Download Game
             </a>

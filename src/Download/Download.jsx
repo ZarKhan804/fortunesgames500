@@ -1,20 +1,19 @@
 
 import { Helmet } from "react-helmet-async";
 
-import HeroSection from "./HeroSection";
-import GameSection from "./GameSection";
-import ContentSection from "./ContentSection";
+import DownloadHero from "./DownloadHero";
 import InternalLinksArticle from "./InternalLinksArticle";
+import Article from "./Article";
 
-function Home() {
+function Download() {
   return (
     <>
       <Helmet>
-        <title>Fortune Game Online | Fortune Games Official Website</title>
+        <title>Fortune Game Download Guide | Mobile Access Information</title>
 
         <meta
           name="description"
-          content="Explore Fortune Game for platform information, game features, mobile access, gameplay guides, account security, and responsible gaming tips."
+          content="Explore the Fortune Game download and mobile access guide, compatible device information, application safety, account guidance, and general gaming resources."
         />
 
         <meta
@@ -24,22 +23,22 @@ function Home() {
 
         <link
           rel="canonical"
-          href="https://www.fortunesgames500.com/"
+          href="https://www.fortunesgames500.com/download"
         />
 
         <meta
           property="og:title"
-          content="Fortune Game Online | Fortune Games Official Website"
+          content="Fortune Game Download Guide | Mobile Access Information"
         />
 
         <meta
           property="og:description"
-          content="Explore Fortune Game platform information, game features, mobile access, gameplay guides, account security, and responsible gaming resources."
+          content="Learn about Fortune Game mobile access, application information, device compatibility, account guidance, and general gaming resources."
         />
 
         <meta
           property="og:url"
-          content="https://www.fortunesgames500.com/"
+          content="https://www.fortunesgames500.com/download"
         />
 
         <meta
@@ -54,12 +53,12 @@ function Home() {
 
         <meta
           name="twitter:title"
-          content="Fortune Game Online | Fortune Games Official Website"
+          content="Fortune Game Download Guide | Mobile Access Information"
         />
 
         <meta
           name="twitter:description"
-          content="Explore Fortune Game platform information, game features, mobile access, gameplay guides, account security, and responsible gaming resources."
+          content="Learn about Fortune Game mobile access, application information, device compatibility, account guidance, and general gaming resources."
         />
 
         <meta
@@ -69,13 +68,12 @@ function Home() {
       </Helmet>
 
       <main id="main-content">
-        <HeroSection />
-        <GameSection />
-        <ContentSection />
+        <DownloadHero />
         <InternalLinksArticle />
+        <Article />
       </main>
     </>
   );
 }
 
-export default Home;
+export default Download;

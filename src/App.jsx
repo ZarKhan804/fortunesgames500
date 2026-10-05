@@ -1,22 +1,27 @@
-
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+// Common Components
+import Header from "./Component/Header";
+import Footer from "./Component/Footer";
 
+// Pages
 import Home from "./Home/Home";
 import About from "./About/About";
 import Blog from "./Blog/Blog";
 import Contact from "./Contact/Contact";
-
+import Download from "./Download/Download";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
 
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, [pathname]);
 
   return null;
 }
@@ -26,21 +31,17 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
 
-      <div className="min-h-screen bg-slate-950 text-white">
-        <Header />
+      <Header />
 
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
-           
-          </Routes>
-        </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/download" element={<Download />} />
+      </Routes>
 
-        <Footer />
-      </div>
+      <Footer />
     </BrowserRouter>
   );
 }

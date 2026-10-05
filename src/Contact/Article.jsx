@@ -1,3 +1,4 @@
+
 import { Mail, MessageCircle, Send } from "lucide-react";
 
 function Article() {
@@ -21,7 +22,7 @@ function Article() {
 
           <p className="mt-5 leading-8 text-slate-600">
             If you have questions, suggestions, or feedback about
-            FortunesGames500, you can use the form and send us a message.
+            Fortune Game, you can use the form and send us a message.
             We value your feedback and aim to keep communication simple and
             straightforward.
           </p>
@@ -31,7 +32,7 @@ function Article() {
             <div className="flex items-center gap-4 rounded-xl border border-gray-300 bg-white p-4">
               <Mail className="text-yellow-500" />
               <span className="text-slate-700">
-                FortunesGames500 Support
+                Fortune Game Support
               </span>
             </div>
 

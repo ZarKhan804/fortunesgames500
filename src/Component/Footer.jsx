@@ -67,7 +67,7 @@ function Footer() {
             >
               <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-white shadow-lg shadow-yellow-400/20">
                 <img
-                  src="https://www.encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxWbecGgNLmrfOLyL3ZNaBFisAq9tk4lIDXppY-NEtQ&s=10"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxWbecGgNLmrfOLyL3ZNaBFisAq9tk4lIDXppY-NEtQ&s=10"
                   alt="Fortune Game logo"
                   width="48"
                   height="48"

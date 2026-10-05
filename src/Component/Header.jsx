@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const logoImage = "https://www.encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxWbecGgNLmrfOLyL3ZNaBFisAq9tk4lIDXppY-NEtQ&s=10";
+  const logoImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxWbecGgNLmrfOLyL3ZNaBFisAq9tk4lIDXppY-NEtQ&s=10";
   const navLinks = [
     {
       name: "Home",

@@ -12,7 +12,7 @@ function About() {
 
         <meta
           name="description"
-          content="Learn about Fortune Game, its platform information, gaming features, mobile access, account guidance, and responsible gaming tips for users in Pakistan."
+          content="Learn about Fortune Game, its features, mobile access, account guidance, and responsible gaming tips in Pakistan."
         />
 
         <meta

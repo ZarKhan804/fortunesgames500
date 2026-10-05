@@ -12,7 +12,7 @@ function Blog() {
 
         <meta
           name="description"
-          content="Explore Fortune Game guides, gameplay information, mobile access tips, account security, platform features, and responsible gaming resources for users in Pakistan."
+          content="Explore Fortune Game guides, gameplay, mobile access, account security, platform features, and responsible gaming tips in Pakistan."
         />
 
         <meta
